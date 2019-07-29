@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>courses</title>
+    <link rel="stylesheet" href="css/n.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-red ">
+                <a class="navbar-brand" href="#"> 
+        <img src="image17.png" width="50px" height="50px">
+    
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div style="margin: auto;" class="navbar-nav ">
+                    <a  class="nav-item nav-link active hg" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link hg lk" href="courses.html">courses</a>
+                    <a class="nav-item nav-link hg" href="contact.html">contact</a>
+         </div>
+                </div>
+              </nav>
+    <center>
+        <div class="o">
+            <h1>courses</h1>
+        </div>
+        <div class="bloc">
+            <div class="container">
+            <div class="row">
+<div class="n col-sm-47777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777"><img src="image1.PNG"><a href="#ex1" rel="modal:open"><button class="test"> view more</button></a></div>
+<div class="n col-sm-4"><img class="m" src="image2.PNG"><a href="#ex1" rel="modal:open"><button class="test"> view more</button></a></div>
+<div class="n col-sm-4"><img src="image3.PNG"><a href="#ex1" rel="modal:open"><button class="test"> view more</button></a></div>
+</div>
+<div class="row">
+<div class="n col-sm-4"><img src="image4.PNG"><a href="#ex1" rel="modal:open"><button class="test"> view more</button></a></div>
+<div class="n col-sm-4"><img class="m" src="image5.PNG"><a href="#ex1" rel="modal:open"><button class="test"> view more</button></a></div>
+<div class="n col-sm-4"><img src="image6.PNG"><a href="#ex1" rel="modal:open"><button class="test"> view more</button></a></div>
+</div>
+<div class="row">
+<div class="n col-sm-4"><img src="image7.PNG"><a href="#ex1" rel="modal:open"><button class="test"> view more</button></a></div>
+<div class="n col-sm-4"><img class="m" src="image8.PNG"><a href="#ex1" rel="modal:open"><button class="test"> view more</button></a></div>
+<div class="n col-sm-4"><img src="image9.PNG"><a href="#ex1" rel="modal:open"><button class="test"> view more</button></a></div>
+</div>
+            </div>
+<div id="ex1" class="modal">
+        <p>This is GoMyCode Track.<br> 
+                Each track has its own goal. <br>
+                By adopting this track, you chose your own goal</p>
+        </div>
+        </div>
+            <h2>feedback</h2><br>
+            <input type="submit" value="B" onclick="bold()">
+            <input type="submit" value="I" onclick="italic()">
+            <input type="submit" value="Underline" onclick="underline()">
+            <select onchange="liste1()" id="v">
+                <option value="20px">20px</option>
+                <option value="30px">30px</option>
+                <option value="40px">40px</option>
+            </select>
+            <select onchange="liste2()" id="n">
+                <option value="arial">arial</option>
+                <option value="verdana">verdana</option>
+                <option value="geneva">geneva</option>
+            </select><br><br>
+            <textarea id="text" cols="70" rows="5"></textarea>
+    </center>
+    <script src="js/main.js"></script>
+</body>
+</html>
